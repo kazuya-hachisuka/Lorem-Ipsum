@@ -90,7 +90,7 @@ hr {
 }
 .portfolio-contents {
 	width: 920px ;
-	margin: 30px 90px;
+	margin: 30px auto 90px auto;
 }
 .portfolio-contents .portfolio-image {
 	background-size: cover;
@@ -318,20 +318,19 @@ hr {
 .left-box {
 	width: 200px;
 	margin: 0 auto;
+	float:center;
 }
 .left-name {
 	font-size: 20px;
 	font-weight:bold;
 	color: #000000;
 	text-align: left;
-	padding-left: 60px;
 }
 .left-name-text {
 	font-size: 16px;
 	text-decoration: underline;
 	color: #000000;
 	padding-top: 5px;
-	padding-left: 60px;
 	text-align: left;
 }
 .left-tell {
@@ -339,37 +338,39 @@ hr {
 	font-weight:bold;
 	color: #000000;
 	padding-top: 20px;
-	padding-left: 60px;
 	text-align: left;
 }
 .left-tell-text {
 	font-size: 16px;
 	color: #000000;
 	padding-top: 5px;
-	padding-left: 60px;
 	text-decoration: underline;
 	text-align: left;
 }
 .contact-box-right {
 	float:right;
-	width: : 400px;
+	width:  400px;
 	padding-bottom: 90px;
+}
+.right-box {
+	width: 200px;
+	margin: 0 auto;
 }
 .right-name {
 	font-size: 20px;
-	font-weight:bold;
+	font-weight: bold;
+	text-align: left;
 	color: #000000;
-	display: inline-block;
-	margin-right: 260px;
 	margin-bottom: 5px;
 }
 .icon-sns {
-	margin-right: 130px;
+	text-align: left;
 }
 .icon-sns i {
-	display: inline-block;
 	font-size: 50px;
-	padding :0 10px;
+}
+.icon-sns .fa-twitter {
+	margin :0 20px;
 }
 footer {
 	background-color: #ec715f;
@@ -391,7 +392,7 @@ header {
 	width: 100%;
 	height: 50px;
 }
-	.nav-list {
+.nav-list {
 	width: 90%;
 	margin: 0 5%;
 	display: none;
@@ -402,9 +403,9 @@ header {
 }
 .hum_icon{
 	position:absolute;
-	top:5px;
+	top: 3px;
 	right:30px;
-	margin: 0 8px;
+	margin: 3px 8px;
 	font-size:35px;
 	z-index:10000;
 	color:#fafafa;
@@ -501,6 +502,12 @@ header {
 }
 .portfolio {
 	width: 100%;
+}
+.portfolio-name {
+	margin: 0 5%;
+}
+.portfolio-text {
+	margin: 0 5%;
 }
 .portfolio-contents {
 	width:100%;
